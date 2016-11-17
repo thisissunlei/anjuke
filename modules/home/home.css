@@ -119,7 +119,6 @@
 	}
 	.zx .nav{
 		width: 100%;
-		padding: 0 .15rem;
 		height: .4rem;
 		overflow: hidden;
 		position: relative;
@@ -130,12 +129,12 @@
 	}
 	.zx .nav a{
 		height: .4rem;
-		width: 100%;
+		width: 67%;
 		color:#555;
 		overflow: hidden;
 		white-space: nowrap;
-		text-overflow:ellipsis;
-		padding-left: .82rem;
+		text-overflow：ellipsis;
+		padding-left: 33%;
 		font-size: .1rem;
 		display: flex;
 		align-items:center;
@@ -163,6 +162,9 @@
 		font-size: .06rem;
 		vertical-align: top;
 	}
+	.zx .house img{
+		width: 100%;
+	}
 	.zx .around p{
 		padding: 0 .15rem;
 		margin-bottom: 1px;
@@ -176,7 +178,7 @@
 		line-height: .4rem;
 		display: inline-block;
 		margin: 0 2px;
-		font-size: .11rem;
+		font-size: .08rem;
 		color: #555;
 	}
 	.zx .around p span{
@@ -433,4 +435,17 @@
 		margin-top: -2.4rem;
 	}.zx .md7{
 		margin-top: -2.8rem;
+	}
+	.zx .xx ul{
+		display: none;
+		font-size: .16rem;
+		overflow: hidden;
+	}
+	.zx .xx li{
+		line-height: .2rem;
+		padding: .1rem;
+		float: left;
+	}
+	.zx .xx li a{
+		color: #333;
 	}

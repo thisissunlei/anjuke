@@ -1,7 +1,8 @@
-angular.module('FangModules',['BanModules'])
+angular.module('FangModules',['BanModules','QuModules'])
 	
 	.config(function($stateProvider,$urlRouterProvider){
-          $urlRouterProvider.otherwise('.ban');
+         /* $urlRouterProvider.otherwise('.ban');*/
+          // $urlRouterProvider.when("", "/fangjia.qu");
 		      $stateProvider.state('fangjia',{
                url:'/fangjia',
                templateUrl:'./modules/fangjia/fangjia.html',
@@ -14,4 +15,5 @@ angular.module('FangModules',['BanModules'])
          $http.get("./modules/fangjia/home.json").success(function(s){
                $scope.arr = s;
          })
+             
      }])

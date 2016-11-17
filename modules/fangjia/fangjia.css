@@ -37,7 +37,7 @@
  	padding: 5px;
  	background: url("../../images/base.png") 10px -241px no-repeat;
  	background-size: 25px;
- 	margin-left: 1.05rem;
+ 	margin-left: .9rem;
  }
  .fj .collect{
 	width: .25rem;
@@ -70,7 +70,7 @@
  	padding: 0 10%;
  	height: .4rem;
  }
- .fj .mo2 p{
+ .fj .mo2 a{
  	width: 50%;
  	height: .4rem;
  	line-height: .4rem;
